@@ -61,3 +61,8 @@ del v[10]
 print(v)
 # pop is a function and delete is a property
 
+# for normal iteration
+a=[2,3,3,3,3,3,3,4,4,7,8,9] # doesnt print the indices but prints the values
+for i in a :
+    print(i)
+
