@@ -44,6 +44,7 @@ tupp=(1,2,3,3,4,4,5,5,5,5,6)
 t3=tupp[1:] 
 t4=tupp[0:5] #doesnot take last index
 t5=tupp[1:-6] #go till -6 index from back where that index is exclusive
+# starting index must be smaller than ending index
 t6=tupp[-6 : -1]
 print(t3)
 print(t4)
